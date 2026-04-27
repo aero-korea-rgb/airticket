@@ -290,7 +290,7 @@
                     employeeId: empId,
                     applicantName: name,
                     applicantEmail: email,
-                    totalAmount: document.getElementById('totalApplicationDisplay').innerText,
+                    totalAmount: parseNumber(document.getElementById('totalApplicationDisplay').innerText),
                     pdfFile: pdfData,
                     files: filesData
                 };
